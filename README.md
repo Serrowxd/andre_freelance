@@ -4,7 +4,7 @@
 
 [New Website]() -- Undeployed
 
-**!! NOTE THAT THE REPOSITORY HAS MOVED [OLD REPOSITORY](https://github.com/Serrowxd/andrecote_freelance) !!**
+**!! [OLD REPOSITORY](https://github.com/Serrowxd/andrecote_freelance) !!**
 
 ## Talking Points
 
