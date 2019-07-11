@@ -4,7 +4,8 @@
   "description": "[Current Website](http://cdc7430.com/) -- http://cdc7430.com/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch ./styles/scss -o ./styles/css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/Serrowxd/andre_freelance#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0"
   }
 }

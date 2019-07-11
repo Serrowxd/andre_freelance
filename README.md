@@ -6,6 +6,9 @@
 
 **!! [OLD REPOSITORY](https://github.com/Serrowxd/andrecote_freelance) !!**
 
+**Commands**
+`npm run scss` - compiles styles.scss into styles.scss
+
 ## Talking Points
 
 **Do you have designs or existing websites you would like me to use as reference when building?**
