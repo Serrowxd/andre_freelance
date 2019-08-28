@@ -2,6 +2,9 @@ html,
 body {
   height: 150vh; }
 
+.container-fluid {
+  padding: 4rem 0 !important; }
+
 .navbar {
   position: absolute !important;
   width: 100% !important;
@@ -70,10 +73,13 @@ body {
 
 .sponsors {
   background-color: #b28704; }
-  .sponsors .sponsor {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .sponsors .sponsor-img {
-    height: 25rem;
-    width: auto; }
+
+.carousel-item img {
+  height: auto;
+  width: 10rem !important; }
+
+.sponsor-type {
+  font-size: 1.5rem; }
+
+.footer {
+  background-color: #b28704; }

@@ -6,6 +6,8 @@
 
 **Commands**
 
+https://tailwindcss.com/
+
 `npm run scss` - compiles styles.scss into styles.scss
 
 ## Talking Points
