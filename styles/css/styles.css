@@ -7,17 +7,44 @@ body {
   width: 100% !important;
   background-color: transparent !important;
   transition: 0.15s; }
+  .navbar .navbar-toggler-icon {
+    color: #ffffff;
+    transition: 0.15s; }
   .navbar a {
     color: #ffffff;
     transition: 0.15s; }
     .navbar a:hover {
-      color: #ffd700; }
+      color: #ffc107; }
+  .navbar .dropdown-menu {
+    background-color: #2f2f2f;
+    transition: 0.15s; }
+    .navbar .dropdown-menu a {
+      color: #ffffff; }
+      .navbar .dropdown-menu a:hover {
+        background-color: #b28704; }
+      .navbar .dropdown-menu a:active {
+        background-color: #ffc107; }
+
+.navbar-toggler-icon {
+  transform: rotate(90deg); }
 
 .scrolled {
   position: fixed !important;
   background-color: #ffffff !important; }
+  .scrolled .navbar-toggler-icon {
+    color: #2f2f2f; }
   .scrolled a {
     color: #2f2f2f; }
+    .scrolled a:hover {
+      color: #b28704; }
+  .scrolled .dropdown-menu {
+    background-color: #ffffff; }
+    .scrolled .dropdown-menu a {
+      color: #2f2f2f; }
+      .scrolled .dropdown-menu a:hover {
+        background-color: #b28704; }
+      .scrolled .dropdown-menu a:active {
+        background-color: #ffc107; }
 
 .hero {
   display: flex;

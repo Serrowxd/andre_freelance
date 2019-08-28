@@ -4,8 +4,6 @@
 
 [New Website]() -- Undeployed
 
-**!! [OLD REPOSITORY](https://github.com/Serrowxd/andrecote_freelance) !!**
-
 **Commands**
 
 `npm run scss` - compiles styles.scss into styles.scss

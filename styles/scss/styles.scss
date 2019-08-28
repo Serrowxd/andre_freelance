@@ -1,37 +1,89 @@
 // Global
-
-$black: #2f2f2f;
-$white: #ffffff;
-$gold: #ffd700;
-
 html,
 body {
   height: 150vh;
 }
+
+// Mixins
+$black: #2f2f2f;
+$white: #ffffff;
+$lightgold: #ffcd38;
+$gold: #ffc107;
+$darkgold: #b28704;
+
+$transition: 0.15s;
 
 // Navigation
 .navbar {
   position: absolute !important;
   width: 100% !important;
   background-color: transparent !important;
-  transition: 0.15s;
+  transition: $transition;
+
+  .navbar-toggler-icon {
+    color: $white;
+    transition: $transition;
+  }
 
   a {
     color: $white;
-    transition: 0.15s;
+    transition: $transition;
 
     &:hover {
       color: $gold;
     }
   }
+
+  .dropdown-menu {
+    background-color: $black;
+    transition: $transition;
+    a {
+      color: $white;
+
+      &:hover {
+        background-color: $darkgold;
+      }
+
+      &:active {
+        background-color: $gold;
+      }
+    }
+  }
+}
+
+.navbar-toggler-icon {
+  transform: rotate(90deg);
 }
 
 .scrolled {
   position: fixed !important;
   background-color: $white !important;
 
+  .navbar-toggler-icon {
+    color: $black;
+  }
+
   a {
     color: $black;
+
+    &:hover {
+      color: $darkgold;
+    }
+  }
+
+  .dropdown-menu {
+    background-color: $white;
+    a {
+      color: $black;
+
+      &:hover {
+        background-color: $darkgold;
+      }
+
+      &:active {
+        background-color: $gold;
+      }
+    }
   }
 }
 
