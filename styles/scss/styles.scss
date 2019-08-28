@@ -1,0 +1,53 @@
+// Global
+
+$black: #2f2f2f;
+$white: #ffffff;
+$gold: #ffd700;
+
+html,
+body {
+  height: 150vh;
+}
+
+// Navigation
+.navbar {
+  position: absolute !important;
+  width: 100% !important;
+  background-color: transparent !important;
+  transition: 0.15s;
+
+  a {
+    color: $white;
+    transition: 0.15s;
+
+    &:hover {
+      color: $gold;
+    }
+  }
+}
+
+.scrolled {
+  position: fixed !important;
+  background-color: $white !important;
+
+  a {
+    color: $black;
+  }
+}
+
+// Hero Header
+.hero {
+  display: flex;
+  height: 100vh;
+  background-color: $black !important;
+  color: $white;
+}
+
+.hero-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
