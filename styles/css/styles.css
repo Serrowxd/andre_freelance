@@ -6,7 +6,8 @@ body {
   position: absolute !important;
   width: 100% !important;
   background-color: transparent !important;
-  transition: 0.15s; }
+  transition: 0.15s;
+  z-index: 100; }
   .navbar .navbar-toggler-icon {
     color: #ffffff;
     transition: 0.15s; }
@@ -49,7 +50,7 @@ body {
 .hero {
   display: flex;
   height: 100vh;
-  background-color: #2f2f2f !important;
+  background-color: #b28704 !important;
   color: #ffffff; }
 
 .hero-header {
@@ -57,5 +58,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 50%; }
+  height: 100%; }
+
+.henlo {
+  height: 25rem;
+  width: auto; }
+
+.subheader span {
+  font-style: italic;
+  font-weight: bold; }
+
+.sponsors {
+  background-color: #b28704; }
+  .sponsors .sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .sponsors .sponsor-img {
+    height: 25rem;
+    width: auto; }

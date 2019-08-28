@@ -19,6 +19,7 @@ $transition: 0.15s;
   width: 100% !important;
   background-color: transparent !important;
   transition: $transition;
+  z-index: 100;
 
   .navbar-toggler-icon {
     color: $white;
@@ -91,7 +92,7 @@ $transition: 0.15s;
 .hero {
   display: flex;
   height: 100vh;
-  background-color: $black !important;
+  background-color: $darkgold !important;
   color: $white;
 }
 
@@ -101,5 +102,33 @@ $transition: 0.15s;
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 50%;
+}
+
+// Subheader
+.henlo {
+  height: 25rem;
+  width: auto;
+}
+
+.subheader {
+  span {
+    font-style: italic;
+    font-weight: bold;
+  }
+}
+
+// Sponsors
+.sponsors {
+  background-color: $darkgold;
+
+  .sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sponsor-img {
+    height: 25rem;
+    width: auto;
+  }
 }
